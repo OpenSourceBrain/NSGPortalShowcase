@@ -169,10 +169,10 @@
    <void method="put">
     <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
      <void property="density">
-      <float>3.0E-9</float>
+      <float>3.6E-7</float>
      </void>
      <void property="name">
-      <string>LeakConductance</string>
+      <string>KConductance</string>
      </void>
     </object>
     <object class="java.util.Vector">
@@ -199,10 +199,10 @@
    <void method="put">
     <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
      <void property="density">
-      <float>3.6E-7</float>
+      <float>3.0E-9</float>
      </void>
      <void property="name">
-      <string>KConductance</string>
+      <string>LeakConductance</string>
      </void>
     </object>
     <object class="java.util.Vector">

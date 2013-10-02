@@ -832,7 +832,7 @@ print &quot;Done...&quot;</string>
    <float>1.0E-5</float>
   </void>
   <void property="reference">
-   <string>Sim1_48</string>
+   <string>Sim1_49</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -1060,18 +1060,24 @@ print &quot;Done...&quot;</string>
         </void>
        </void>
       </void>
+      <void property="mpiVersion">
+       <string>OPENMPI v2.*</string>
+      </void>
       <void property="name">
-       <string>MatLem (1 x 8p)</string>
+       <string>NSG Portal [trestles] (1 x 8p)</string>
       </void>
       <void property="queueInfo">
        <object class="ucl.physiol.neuroconstruct.hpc.mpi.QueueInfo">
         <void property="account">
-         <string></string>
+         <string>TG-IBN120011</string>
+        </void>
+        <void property="launcherScript">
+         <string>time</string>
         </void>
         <void property="queueType">
-         <object id="QueueInfo$QueueType0" class="java.lang.Enum" method="valueOf">
+         <object class="java.lang.Enum" method="valueOf">
           <class>ucl.physiol.neuroconstruct.hpc.mpi.QueueInfo$QueueType</class>
-          <string>SGE</string>
+          <string>PBS</string>
          </object>
         </void>
         <void property="wallTimeMins">
@@ -1087,38 +1093,17 @@ print &quot;Done...&quot;</string>
            <class>ucl.physiol.neuroconstruct.hpc.mpi.MpiSettings$KnownSimulators</class>
            <string>NEURON</string>
           </object>
-          <string>/share/apps/neuro/nrn71/x86_64/bin/nrniv</string>
-         </void>
-         <void method="put">
-          <object class="java.lang.Enum" method="valueOf">
-           <class>ucl.physiol.neuroconstruct.hpc.mpi.MpiSettings$KnownSimulators</class>
-           <string>GENESIS</string>
-          </object>
-          <string>/share/apps/neuro/genesis-2.3/genesis/genesis</string>
-         </void>
-         <void method="put">
-          <object id="MpiSettings$KnownSimulators1" class="java.lang.Enum" method="valueOf">
-           <class>ucl.physiol.neuroconstruct.hpc.mpi.MpiSettings$KnownSimulators</class>
-           <string>PY_NEURON</string>
-          </object>
-          <string>/share/apps/neuro/nrn71/x86_64/bin/nrniv -python</string>
-         </void>
-         <void method="put">
-          <object id="MpiSettings$KnownSimulators2" class="java.lang.Enum" method="valueOf">
-           <class>ucl.physiol.neuroconstruct.hpc.mpi.MpiSettings$KnownSimulators</class>
-           <string>MOOSE</string>
-          </object>
-          <string>/share/apps/neuro/moose/moose</string>
+          <string>/home/nsguser/neuron/nrn/x86_64/bin/nrniv</string>
          </void>
         </void>
         <void property="hostname">
-         <string>128.16.14.177</string>
+         <string>trestles-login.sdsc.edu</string>
         </void>
         <void property="userName">
-         <string>ucgbpgl</string>
+         <string>pgleeson</string>
         </void>
         <void property="workDir">
-         <string>/home/ucgbpgl/nCsims</string>
+         <string>/home/pgleeson</string>
         </void>
        </object>
       </void>
@@ -1320,7 +1305,10 @@ print &quot;Done...&quot;</string>
          <string></string>
         </void>
         <void property="queueType">
-         <object idref="QueueInfo$QueueType0"/>
+         <object class="java.lang.Enum" method="valueOf">
+          <class>ucl.physiol.neuroconstruct.hpc.mpi.QueueInfo$QueueType</class>
+          <string>SGE</string>
+         </object>
         </void>
         <void property="wallTimeMins">
          <int>6</int>
@@ -1335,12 +1323,18 @@ print &quot;Done...&quot;</string>
           <string>/share/apps/neuro/nrn71/x86_64/bin/nrniv</string>
          </void>
          <void method="put">
-          <object idref="MpiSettings$KnownSimulators1"/>
-          <string>/share/apps/neuro/nrn71/x86_64/bin/nrniv -python</string>
+          <object class="java.lang.Enum" method="valueOf">
+           <class>ucl.physiol.neuroconstruct.hpc.mpi.MpiSettings$KnownSimulators</class>
+           <string>MOOSE</string>
+          </object>
+          <string>/share/apps/neuro/moose</string>
          </void>
          <void method="put">
-          <object idref="MpiSettings$KnownSimulators2"/>
-          <string>/share/apps/neuro/moose</string>
+          <object class="java.lang.Enum" method="valueOf">
+           <class>ucl.physiol.neuroconstruct.hpc.mpi.MpiSettings$KnownSimulators</class>
+           <string>PY_NEURON</string>
+          </object>
+          <string>/share/apps/neuro/nrn71/x86_64/bin/nrniv -python</string>
          </void>
         </void>
         <void property="hostname">
