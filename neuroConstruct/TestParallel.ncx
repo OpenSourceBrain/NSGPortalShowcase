@@ -832,7 +832,7 @@ print &quot;Done...&quot;</string>
    <float>1.0E-5</float>
   </void>
   <void property="reference">
-   <string>Sim1_49</string>
+   <string>Sim1_66</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -1059,23 +1059,56 @@ print &quot;Done...&quot;</string>
          <int>8</int>
         </void>
        </void>
+       <void method="add">
+        <object class="ucl.physiol.neuroconstruct.hpc.mpi.MpiHost">
+         <void property="hostname">
+          <string>node1</string>
+         </void>
+         <void property="numProcessors">
+          <int>8</int>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="ucl.physiol.neuroconstruct.hpc.mpi.MpiHost">
+         <void property="hostname">
+          <string>node2</string>
+         </void>
+         <void property="numProcessors">
+          <int>8</int>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="ucl.physiol.neuroconstruct.hpc.mpi.MpiHost">
+         <void property="hostname">
+          <string>node3</string>
+         </void>
+         <void property="numProcessors">
+          <int>8</int>
+         </void>
+        </object>
+       </void>
       </void>
       <void property="mpiVersion">
        <string>OPENMPI v2.*</string>
       </void>
       <void property="name">
-       <string>NSG Portal [trestles] (1 x 8p)</string>
+       <string>NSG Portal [trestles] (4 x 8p)</string>
       </void>
       <void property="queueInfo">
        <object class="ucl.physiol.neuroconstruct.hpc.mpi.QueueInfo">
         <void property="account">
          <string>TG-IBN120011</string>
         </void>
+        <void property="compileNmodlOnLogin">
+         <boolean>true</boolean>
+        </void>
         <void property="launcherScript">
          <string>time</string>
         </void>
         <void property="queueType">
-         <object class="java.lang.Enum" method="valueOf">
+         <object id="QueueInfo$QueueType0" class="java.lang.Enum" method="valueOf">
           <class>ucl.physiol.neuroconstruct.hpc.mpi.QueueInfo$QueueType</class>
           <string>PBS</string>
          </object>
@@ -1093,7 +1126,7 @@ print &quot;Done...&quot;</string>
            <class>ucl.physiol.neuroconstruct.hpc.mpi.MpiSettings$KnownSimulators</class>
            <string>NEURON</string>
           </object>
-          <string>/home/nsguser/neuron/nrn/x86_64/bin/nrniv</string>
+          <string>/projects/ps-nsg/home/nsguser/applications/neuron7.3/nrn-7.3/x86_64/bin/nrniv</string>
          </void>
         </void>
         <void property="hostname">
@@ -1174,13 +1207,60 @@ print &quot;Done...&quot;</string>
      <void id="MpiConfiguration1" property="mpiConf">
       <void property="hostList">
        <void index="0">
+        <void property="hostname">
+         <string>node0</string>
+        </void>
         <void property="numProcessors">
-         <int>4</int>
+         <int>8</int>
         </void>
        </void>
       </void>
+      <void property="mpiVersion">
+       <string>OPENMPI v2.*</string>
+      </void>
       <void property="name">
-       <string>Local machine (4p)</string>
+       <string>NSG Portal [trestles] (1 x 8p)</string>
+      </void>
+      <void property="queueInfo">
+       <object class="ucl.physiol.neuroconstruct.hpc.mpi.QueueInfo">
+        <void property="account">
+         <string>TG-IBN120011</string>
+        </void>
+        <void property="compileNmodlOnLogin">
+         <boolean>true</boolean>
+        </void>
+        <void property="launcherScript">
+         <string>time</string>
+        </void>
+        <void property="queueType">
+         <object idref="QueueInfo$QueueType0"/>
+        </void>
+        <void property="wallTimeMins">
+         <int>6</int>
+        </void>
+       </object>
+      </void>
+      <void property="remoteLogin">
+       <object class="ucl.physiol.neuroconstruct.hpc.mpi.RemoteLogin">
+        <void property="executables">
+         <void method="put">
+          <object idref="MpiSettings$KnownSimulators0"/>
+          <string>/projects/ps-nsg/home/nsguser/applications/neuron7.3/nrn-7.3/x86_64/bin/nrniv</string>
+         </void>
+        </void>
+        <void property="hostname">
+         <string>trestles-login.sdsc.edu</string>
+        </void>
+        <void property="userName">
+         <string>pgleeson</string>
+        </void>
+        <void property="workDir">
+         <string>/home/pgleeson</string>
+        </void>
+       </object>
+      </void>
+      <void property="useScp">
+       <boolean>true</boolean>
       </void>
      </void>
      <void property="mpiConf">
