@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.6.0_27" class="java.beans.XMLDecoder">
+<java version="1.7.0_25" class="java.beans.XMLDecoder">
 
 <!-- Note that this XML is specific to the neuroConstruct Java cell object model and not any part of the NeuroML framework -->
 
@@ -77,10 +77,10 @@
    <void method="put">
     <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
      <void property="density">
-      <float>3.0E-9</float>
+      <float>1.2E-6</float>
      </void>
      <void property="name">
-      <string>LeakConductance</string>
+      <string>NaConductance</string>
      </void>
     </object>
     <object class="java.util.Vector">
@@ -92,10 +92,10 @@
    <void method="put">
     <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
      <void property="density">
-      <float>1.2E-6</float>
+      <float>3.0E-9</float>
      </void>
      <void property="name">
-      <string>NaConductance</string>
+      <string>LeakConductance</string>
      </void>
     </object>
     <object class="java.util.Vector">
