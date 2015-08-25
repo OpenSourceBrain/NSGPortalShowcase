@@ -1,4 +1,4 @@
 import brian2
 
-print("Version: %s"%brian2.__version__)
+print("Current version of Brian: %s"%brian2.__version__)
 
