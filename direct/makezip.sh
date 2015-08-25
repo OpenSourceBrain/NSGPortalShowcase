@@ -1,1 +1,1 @@
-zip test_brain_2.zip input.py
+zip -r input brian2
