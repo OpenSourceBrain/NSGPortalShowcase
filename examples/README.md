@@ -41,17 +41,15 @@ and submit this to NSG.
 12. Status of ongoing tasks can be seen at **Tasks (1)** & clicking **View Status**
 13. When it finished click **View Output** and you can download results.
 
-
-
 ### NEURON (Python format)
 
-See [directory PythonNeuron](https://github.com/OpenSourceBrain/NSGPortalShowcase/tree/master/examples/NEURON/PythonNeuron).
+See directory [PythonNeuron](https://github.com/OpenSourceBrain/NSGPortalShowcase/tree/master/examples/NEURON/PythonNeuron).
 
 This can be submitted in the same way as above, except use [*input2.zip*](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/examples/NEURON/input2.zip) and select **NEURON7.3 Python on Comet**.
 
 ### Brain
 
-See [directory Brian](https://github.com/OpenSourceBrain/NSGPortalShowcase/tree/master/examples/Brian).
+See directory [Brian](https://github.com/OpenSourceBrain/NSGPortalShowcase/tree/master/examples/Brian).
 
 This can be submitted in the same way as above, except use [*input.zip*](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/examples/Brian/input.zip) and select **Brian on Comet**.
 
