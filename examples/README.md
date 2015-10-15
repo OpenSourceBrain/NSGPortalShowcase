@@ -16,7 +16,7 @@ You should be able to run this locally if NEURON is set up & configured to allow
     
 The exact for of the above command will depend on the version of MPI installed. 
 
-To run it on NSG, either use the [pre built zip file](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/examples/NEURON/input.zip), or edit the hoc/mod and rebuild the zip file:
+To run it on NSG, either use the [pre built zip file *input.zip*](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/examples/NEURON/input.zip), or edit the hoc/mod and rebuild the zip file:
 
     ./makezips.sh
     
@@ -28,12 +28,18 @@ and submit this to NSG.
 2. Create a new folder (e.g. **TestFolder**)
 3. Click on **Data (0)** under the newly created folder on the left
 4. Click **Enter/Upload Data**
-5. Locate input.zip. Name the data **TestData**.
+5. Locate *input.zip*. Name the data **TestData**.
 6. Click on **Tasks (0)**; **Create New Task**
 7. Name it **TestTask**.
 8. Click on **Input** and select **TestData**
-9. Click on **Tool** and select **NEURON7.3 Python on Comet**
+9. Click on **Tool** and select **NEURON7.3 on Comet**
+10. Imput parameters should not need to change. The form should look something like: 
 
+![](https://raw.githubusercontent.com/OpenSourceBrain/NSGPortalShowcase/master/examples/NSG.png)
+
+11. Hit **Save and Run Task**.
+12. Status of ongoing tasks can be seen at **Tasks (1)** & clicking **View Status**
+13. When it finished click **View Output** and you can download results.
 
 
 
@@ -41,7 +47,11 @@ and submit this to NSG.
 
 See [directory PythonNeuron](https://github.com/OpenSourceBrain/NSGPortalShowcase/tree/master/examples/NEURON/PythonNeuron).
 
+This can be submitted in the same way as above, except use [*input2.zip*](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/examples/NEURON/input2.zip) and select **NEURON7.3 Python on Comet**.
+
 ### Brain
 
-See [directory Brian](https://github.com/OpenSourceBrain/NSGPortalShowcase/tree/master/examples/Brian)
+See [directory Brian](https://github.com/OpenSourceBrain/NSGPortalShowcase/tree/master/examples/Brian).
+
+This can be submitted in the same way as above, except use [*input.zip*](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/examples/Brian/input.zip) and select **Brian on Comet**.
 
