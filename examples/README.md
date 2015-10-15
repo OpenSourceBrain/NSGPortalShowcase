@@ -14,14 +14,25 @@ You should be able to run this locally if NEURON is set up & configured to allow
     nrnivmodl
     mpirun -np 4 nrniv -mpi init.hoc
     
-The exact for of the above command will depend on the versionof MPI installed. 
+The exact for of the above command will depend on the version of MPI installed. 
 
 To run it on NSG, either use the [pre built zip file](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/examples/NEURON/input.zip), or edit the hoc/mod and rebuild the zip file:
 
     ./makezips.sh
     
-and submit this to NSG. [Log in (after having signed up...)](http://www.nsgportal.org/portal2/login!input.action) and ...
+and submit this to NSG. 
 
+#### Submitting zip files to NSG
+
+1. [Log in (after having signed up...)](http://www.nsgportal.org/portal2/login!input.action)
+2. Create a new folder (e.g. **TestFolder**)
+3. Click on **Data (0)** under the newly created folder on the left
+4. Click **Enter/Upload Data**
+5. Locate input.zip. Name the data **TestData**.
+6. Click on **Tasks (0)**; **Create New Task**
+7. Name it **TestTask**.
+8. Click on **Input** and select **TestData**
+9. Click on **Tool** and select **NEURON7.3 Python on Comet**
 
 
 
