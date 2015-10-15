@@ -1,3 +1,7 @@
+/examples/NEURON/ParallelNetwork/runsim.sh
+/.gitignore~
+/examples/NEURON/ParallelNetwork/*.dat
+/examples/NEURON/ParallelNetwork/*.props
 /neuroConstruct/generatedNeuroML2/runsim.sh
 
 *.pyc
