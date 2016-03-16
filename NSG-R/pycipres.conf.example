@@ -1,0 +1,12 @@
+# This is an example of the properties file you must put in
+# your home directory.  Fill in the values with your username, password
+# application name and application ID.
+
+URL=http://nsgr.sdsc.edu:8085/cipresrest/v1
+ADMIN_USERNAME=uuuuuu
+ADMIN_PASSWORD=xxxxxx
+ADMIN_EMAIL=eeee@eeeee
+ADMIN_INSTITUTION=iiiii
+ADMIN_COUNTRY=ccccc
+UMBRELLA_APPNAME=
+UMBRELLA_APPID=OSB-111111111111111111111111111

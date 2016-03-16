@@ -1,0 +1,18 @@
+#!/bin/bash
+
+while IFS= read -r line; do
+
+    if [[ $line == *"="* ]]
+    then
+      lineclean=$( echo ${line:0:-1} | xargs)
+      #echo "Line: XXX $lineclean ZZZ"
+      var=$(echo $lineclean | cut -d'=' -f 1 )
+      val=$(echo $lineclean | cut -d'=' -f 2 )
+      echo "Setting: $var to $val ...";
+      export $var=$val
+    fi
+    
+done < ~/pycipres.conf
+
+echo "  Read in data for NSG REST API user: $ADMIN_USERNAME to access: $URL..."
+
