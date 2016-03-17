@@ -9,11 +9,12 @@ custimised to work with the NSG REST API
     cd ..
     svn export https://svn.sdsc.edu/repo/scigap/trunk/rest/datatypes datatypes
     cd datatypes
-    mvn clean install # Problems? See: http://stackoverflow.com/questions/16723533/how-do-you-specify-the-java-compiler-version-in-a-pom-xml-file
+    mvn clean install 
+    # Problems? See: http://stackoverflow.com/questions/16723533/how-do-you-specify-the-java-compiler-version-in-a-pom-xml-file
     
     cd ../Java
     mvn clean install
-    Create an NSG REST account and update the configuration file as outlined [here](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/NSG-R/README.md)
+    # Create an NSG REST account and update the configuration file as outlined [here](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/NSG-R/README.md)
     mvn exec:java
     
 
