@@ -17,4 +17,5 @@ simulations
 *py.class
 *~
 /NSG-R/Java/target/
+/NSG-R/datatypes*
 /NSG-R/Java/pycipres.conf

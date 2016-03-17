@@ -2,6 +2,7 @@ package org.ngbw.directclient;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
@@ -11,6 +12,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ * 
+ * 
+ * 
+ *    Note: This is not (all) relevant/up to date for NSG REST API...
+ * 
+ * 
  * A singleton class that can be used to configure a CIPRES client application from a properties file.  
 
 	Three locations are searched, in order.  
@@ -96,17 +103,20 @@ public class CiApplication
 	{
 		InputStream is = null;
 		File file = new File(filename);
-		//log.debug("Looking for properties file " + filename);
+		log.debug("Looking for properties file " + filename+"...");
 		if (file.exists())
 		{
 			try
 			{
+                log.debug("Reading properties file " + filename+"...");
 				is = new FileInputStream(file);
 				properties.load(is);
 				//log.debug("Loaded properties from: " + filename);
 				return true;
 			}
-			catch(Exception e) { ; }
+			catch(Exception e) { 
+                log.error("Problem with properties: " + e.getMessage());
+            }
 			finally
 			{
 				if (is != null)
@@ -125,6 +135,7 @@ public class CiApplication
 	private CiApplication() 
 	{
 		log.info("Starting NSG REST API Client Application!!");
+        Properties properties = new Properties();
 		final List<String> requiredProperties = 
 			Arrays.asList("URL", "UMBRELLA_APPID", "ADMIN_USERNAME", "ADMIN_PASSWORD") ;
 		try
