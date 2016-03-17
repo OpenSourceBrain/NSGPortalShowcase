@@ -1,7 +1,7 @@
 
 *******************************************
 This is code originally developed for CIPRES: https://www.phylo.org/restusers/docs/guide.html#SampleCode
-custimised to work with the NSG REST API
+customised to work with the NSG REST API
 *******************************************
 
 ## Quick start
