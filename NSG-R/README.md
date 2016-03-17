@@ -34,7 +34,12 @@ This work is based on the REST API from  [CIPRES - Cyberinfrastructure for Phylo
     ```
     
 11. UMBRELLA_APPID should be set to your Application ID
-12. Test listing of your jobs (none yet) with:
+
+
+#### Access using shell scripts
+
+
+1. Test listing of your jobs (none yet) with:
 
     ./list_jobs.sh
 

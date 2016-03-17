@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+        <param name="Target" value="System.out" />
+        <layout class="org.apache.log4j.PatternLayout">
+			<param name="DatePattern" value="'.'yyyy-MM-dd"/>
+			<param name="ConversionPattern" value="%-20.20d{MMM dd yyyy HH:mm:ss} %-5.5p - %C:%-5.5L | %m%n"/>
+<!--
+            <param name="ConversionPattern" value="%-5p [%c] %m %n" />
+-->
+        </layout>
+    </appender>
+
+	<logger name="org.ngbw.directclient" additivity="false">
+		<level value="debug"/>
+		<appender-ref ref="STDOUT"/>
+	</logger>
+
+	<!-- note that setting root logger to debug shows a lot of struts internal logging -->
+	<root>
+		<level value="error"/>
+		<appender-ref ref="STDOUT"/>
+	</root>
+
+</log4j:configuration>

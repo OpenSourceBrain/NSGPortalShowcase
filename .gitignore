@@ -16,3 +16,5 @@ simulations
 *.bak
 *py.class
 *~
+/NSG-R/Java/target/
+/NSG-R/Java/pycipres.conf
