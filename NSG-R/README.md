@@ -2,6 +2,8 @@
 
 **This is a work in progress!!** This feature may change or be removed without notice!
 
+This work is based on the REST API from  [CIPRES - Cyberinfrastructure for Phylogenetic Research](http://www.phylo.org/index.php/news/detail/announcing-cipres-restful-services-a-new-way-to-use-cipres).
+
 #### Sign up to the NSG REST test server
 
 1. Go to http://nsgr.sdsc.edu:8085/restusers and register for a new account
