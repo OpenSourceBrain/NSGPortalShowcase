@@ -39,9 +39,14 @@ This work is based on the REST API from  [CIPRES - Cyberinfrastructure for Phylo
 #### Access using shell scripts
 
 
-1. Test listing of your jobs (none yet) with:
+1. Test listing/submitting of jobs with:
 
-    ./list_jobs.sh
+    ```
+    ./list_jobs.sh              # none yet...
+    ./submit_python_job.sh      # submit a simple Python job
+    ./list_jobs.sh              # should be listed
+    ./status_job.sh JOBIDXXXX   # Replace job ID with that listed above
+    ```
     
 
 #### Access using Java API
