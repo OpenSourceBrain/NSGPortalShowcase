@@ -42,7 +42,11 @@ This work is based on the REST API from  [CIPRES - Cyberinfrastructure for Phylo
 1. Test listing of your jobs (none yet) with:
 
     ./list_jobs.sh
+    
 
+#### Access using Java API
+    
+See [here](https://github.com/OpenSourceBrain/NSGPortalShowcase/tree/master/NSG-R/Java).
 
 
 
