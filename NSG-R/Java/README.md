@@ -12,11 +12,14 @@ custimised to work with the NSG REST API
     mvn clean install
     cd ../Java
     mvn clean install
+    Create an NSG REST account and update the configuration file as outlined [here](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/NSG-R/README.md)
+    mvn exec:java
     
 
 
+*******************************************
 
-** Original Readme.txt follows **
+**Original Readme.txt follows**
 
 
 
@@ -33,6 +36,7 @@ and java 1.7.
 
 2. Before building cipres_rest_client.jar, build restdatatypes.jar.  Do this in a directory
 next to the java_direct directory:
+
     $ cd ..
     $ svn export https://svn.sdsc.edu/repo/scigap/trunk/rest/datatypes datatypes
     $ cd datatypes
@@ -45,6 +49,7 @@ https://svn.sdsc.edu/repo/scigap/branches/rest-R4/rest_client_examples/examples/
 then get datatypes from the same branch, i.e. https://svn.sdsc.edu/repo/scigap/branches/rest-R4/rest/datatypes.
 
 3. Now return to the java_direct and build cipres_rest_client.jar:
+
     $ mvn clean install
 
 
@@ -66,12 +71,13 @@ login and go to the "Developers" menu and choose "Application Management".   Pre
 "Create New Application" and fill in the form to register a new application that uses 
 Direct Authentication.   
 
-2. Copy java_direct/pycipres.conf to your home directory and edit it, filling in your username, 
+2) Copy java_direct/pycipres.conf to your home directory and edit it, filling in your username, 
 password, application name and application ID.  Or put pycipres.conf anywhere on disk and set
 an environment variable named PYCIPRES to the full pathname of the file; on Windows this is preferable
 to using the home directory.
 
-3. From the java_direct directory, run:
+3) From the java_direct directory, run:
+
     mvn exec:java
 
 You should see some logging output and a prompt that looks like:
@@ -99,7 +105,9 @@ headers will be used on each request to tell CIPRES which of your users (i.e. wh
 the request is for.
 
 Invoke the example with:
+
 	mvn exec:java -Dexec.args="-u"
+
 When the program starts, it will prompt you to enter information about the "end user" before you
 can choose to run a job or retrieve results, etc.  This is to simulate a web application that can
 have several different users logged in.  Here you're telling the example code which user to make
