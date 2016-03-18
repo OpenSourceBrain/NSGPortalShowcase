@@ -51,7 +51,7 @@ public class CiApplication
 	private String username;
 	private String password;
     
-    public static String PROPERTIES_FILE = "pycipres.conf";
+    public static String PROPERTIES_FILE = "nsgrest.conf";
 
 	/**
 	 * Gets the url of the CIPRES REST API.
@@ -137,7 +137,7 @@ public class CiApplication
 		log.info("Starting NSG REST API Client Application!!");
         Properties properties = new Properties();
 		final List<String> requiredProperties = 
-			Arrays.asList("URL", "UMBRELLA_APPID", "ADMIN_USERNAME", "ADMIN_PASSWORD") ;
+			Arrays.asList("URL", "DIRECT_APPID", "USERNAME", "PASSWORD") ;
 		try
 		{
 			String propFile2 = System.getenv("HOME") + "/"+PROPERTIES_FILE;
@@ -158,9 +158,9 @@ public class CiApplication
 			}
 			restUrl = properties.getProperty("URL");
 			appname = properties.getProperty("UMBRELLA_APPNAME");
-			appkey = properties.getProperty("UMBRELLA_APPID"); 
-			username = properties.getProperty("ADMIN_USERNAME");
-			password = properties.getProperty("ADMIN_PASSWORD");
+			appkey = properties.getProperty("DIRECT_APPID"); 
+			username = properties.getProperty("USERNAME");
+			password = properties.getProperty("PASSWORD");
 			log.info("URL=" + restUrl + 
 				", APPNAME=" + appname +
 				", APPID=" + appkey +
