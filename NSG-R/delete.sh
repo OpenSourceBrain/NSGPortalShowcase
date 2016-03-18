@@ -2,9 +2,9 @@
 
 source ./read_env_variables
 
-echo "Deleting job: $1 for user $ADMIN_USERNAME"
+echo "Deleting job: $1 for user $USERNAME"
 
-curl -i --user $ADMIN_USERNAME:$ADMIN_PASSWORD \
-     -H cipres-appkey:$UMBRELLA_APPID \
+curl -i --user $USERNAME:$PASSWORD \
+     -H cipres-appkey:$DIRECT_APPID \
      -X DELETE \
-      $URL/job/$ADMIN_USERNAME/$1 
+      $URL/job/$USERNAME/$1 

@@ -11,7 +11,7 @@ while IFS= read -r line; do
       export $var=$val
     fi
     
-done < ~/pycipres.conf
+done < ~/nsgrest.conf
 
-echo "  Read in data for NSG REST API user: $ADMIN_USERNAME to access: $URL..."
+echo "  Read in data for NSG REST API user: $USERNAME to access: $URL..."
 

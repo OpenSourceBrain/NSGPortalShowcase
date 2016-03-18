@@ -2,8 +2,8 @@
 
 source ./read_env_variables
 
-echo "Accessing: $URL/job/$ADMIN_USERNAME for user $ADMIN_USERNAME"
+echo "Accessing: $URL/job/$USERNAME for user $USERNAME"
 
-curl -i --user $ADMIN_USERNAME:$ADMIN_PASSWORD \
-     -H cipres-appkey:$UMBRELLA_APPID \
-      $URL/job/$ADMIN_USERNAME/$1 
+curl -i --user $USERNAME:$PASSWORD \
+     -H cipres-appkey:$DIRECT_APPID \
+      $URL/job/$USERNAME/$1 

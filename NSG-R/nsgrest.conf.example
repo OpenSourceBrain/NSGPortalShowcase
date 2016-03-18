@@ -3,10 +3,6 @@
 # application name and application ID.
 
 URL=http://nsgr.sdsc.edu:8085/cipresrest/v1
-ADMIN_USERNAME=uuuuuu
-ADMIN_PASSWORD=xxxxxx
-ADMIN_EMAIL=eeee@eeeee
-ADMIN_INSTITUTION=iiiii
-ADMIN_COUNTRY=ccccc
-UMBRELLA_APPNAME=
-UMBRELLA_APPID=OSB-111111111111111111111111111
+USERNAME=uuuuuu
+PASSWORD=xxxxxx
+DIRECT_APPID=Direct111111111111

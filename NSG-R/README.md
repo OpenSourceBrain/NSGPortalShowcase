@@ -19,21 +19,17 @@ This work is based on the REST API from  [CIPRES - Cyberinfrastructure for Phylo
     cd NSGPortalShowcase/NSG-R/
     ```
 
-9. Copy the [pycipres.conf.example](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/NSG-R/pycipres.conf.example) file to **pycipres.conf** and move it to your home folder
+9. Copy the [nsgrest.conf.example](https://github.com/OpenSourceBrain/NSGPortalShowcase/blob/master/NSG-R/nsgrest.conf.example) file to **nsgrest.conf** and move it to your home folder
 10. Update the details there with the information you entered on the NSG REST server:
 
     ```
     URL=http://nsgr.sdsc.edu:8085/cipresrest/v1
-    ADMIN_USERNAME=uuuuuu
-    ADMIN_PASSWORD=xxxxxx
-    ADMIN_EMAIL=eeee@eeeee
-    ADMIN_INSTITUTION=iiiii
-    ADMIN_COUNTRY=ccccc
-    UMBRELLA_APPNAME=
-    UMBRELLA_APPID=OSB-111111111111111111111111111
+    USERNAME=uuuuuu
+    PASSWORD=xxxxxx
+    DIRECT_APPID=Direct111111111111
     ```
     
-11. UMBRELLA_APPID should be set to your Application ID
+11. DIRECT_APPID should be set to your Application ID
 
 
 #### Access using shell scripts
