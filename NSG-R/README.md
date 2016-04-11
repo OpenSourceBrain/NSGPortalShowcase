@@ -6,7 +6,7 @@ This work is based on the REST API from  [CIPRES - Cyberinfrastructure for Phylo
 
 #### Sign up to the NSG REST test server
 
-1. Go to http://nsgr.sdsc.edu:8085/restusers and register for a new account
+1. Go to http://nsgr.sdsc.edu:8444/restusers and register for a new account
 2. Log in to the service
 3. Go to Developer -> Application Management
 4. Click Create New Application
@@ -23,7 +23,7 @@ This work is based on the REST API from  [CIPRES - Cyberinfrastructure for Phylo
 10. Update the details there with the information you entered on the NSG REST server:
 
     ```
-    URL=http://nsgr.sdsc.edu:8085/cipresrest/v1
+    URL=http://nsgr.sdsc.edu:8444/cipresrest/v1
     USERNAME=uuuuuu
     PASSWORD=xxxxxx
     DIRECT_APPID=Direct111111111111
