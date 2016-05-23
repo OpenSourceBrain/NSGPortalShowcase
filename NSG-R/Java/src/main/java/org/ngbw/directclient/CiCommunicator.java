@@ -11,9 +11,11 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.Response;
 import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
 
 import org.glassfish.jersey.media.multipart.FormDataMultiPart;
 import org.ngbw.restdatatypes.ErrorData;
+import org.ngbw.restdatatypes.StatusData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -137,7 +139,8 @@ public class CiCommunicator
 			throw new CiCipresException(getErrorData(response));
 		} else
 		{
-			return response.readEntity(gt);
+			return (T)readResponse(response);
+//			return response.readEntity(gt);
 		}
 	}
 
@@ -166,7 +169,8 @@ public class CiCommunicator
 			throw new CiCipresException(getErrorData(response));
 		} else
 		{
-			return response.readEntity(theClass);
+			return (T)readResponse(response);
+			//return response.readEntity(theClass);
 		}
 	}
 
@@ -196,7 +200,27 @@ public class CiCommunicator
 			throw new CiCipresException(getErrorData(response));
 		} else
 		{
-			return response.readEntity(theClass);
+			return (T)readResponse(response);
+		}
+	}
+
+	private Object readResponse(Response response) throws CiCipresException
+	{
+		try
+		{
+			String text = response.readEntity(String.class);
+			InputStream is = new ByteArrayInputStream(text.getBytes());
+
+			ClassLoader cl = org.ngbw.restdatatypes.ErrorData.class.getClassLoader();
+
+			JAXBContext ctx = JAXBContext.newInstance("org.ngbw.restdatatypes", cl);
+			Object obj = ctx.createUnmarshaller().unmarshal(is);
+			return obj;
+			//return response.readEntity(theClass);
+		}
+		catch(JAXBException e)
+		{
+			throw new CiCipresException(e);
 		}
 	}
 
