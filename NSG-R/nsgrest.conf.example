@@ -2,7 +2,7 @@
 # your home directory.  Fill in the values with your username, password
 # and application ID.
 
-URL=http://nsgr.sdsc.edu:8085/cipresrest/v1
+URL=https://nsgr.sdsc.edu:8444/cipresrest/v1
 USERNAME=uuuuuu
 PASSWORD=xxxxxx
 DIRECT_APPID=Direct111111111111
