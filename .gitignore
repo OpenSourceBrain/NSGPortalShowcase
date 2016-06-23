@@ -19,3 +19,4 @@ simulations
 /NSG-R/Java/target/
 /NSG-R/datatypes*
 /NSG-R/Java/pycipres.conf
+/NSG-R/Java/src/main/java/META-INF/MANIFEST.MF
