@@ -20,3 +20,7 @@ simulations
 /NSG-R/datatypes*
 /NSG-R/Java/pycipres.conf
 /NSG-R/Java/src/main/java/META-INF/MANIFEST.MF
+/NSG-R/STDERR
+/NSG-R/STDOUT
+/NSG-R/output.tar.gz
+/NSG-R/scheduler_stdout.txt
