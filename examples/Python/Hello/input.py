@@ -58,7 +58,29 @@ print('\n========================================================\n')
 
 
 
+try:
+    import neuroml
+    print(">> libNeuroML: version %s"%neuroml.__version__)
+
+except:
+    print("No libNeuroML...")
+
+print('\n========================================================\n')
+
+
+try:
+    import pyneuroml
+    print(">> pyNeuroML: version %s"%pyneuroml.__version__)
+
+except:
+    print("No pyNeuroML...")
+
+print('\n========================================================\n')
+
+
 import netpyne
 
 print(">> NetPyNE: version %s"%netpyne.__version__)
 print('\n========================================================\n')
+
+
