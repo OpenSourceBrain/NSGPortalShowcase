@@ -62,8 +62,8 @@ try:
     import neuroml
     print(">> libNeuroML: version %s"%neuroml.__version__)
 
-except:
-    print("No libNeuroML...")
+except Exception as e:
+    print("No libNeuroML: %s"%e)
 
 print('\n========================================================\n')
 
@@ -72,8 +72,8 @@ try:
     import pyneuroml
     print(">> pyNeuroML: version %s"%pyneuroml.__version__)
 
-except:
-    print("No pyNeuroML...")
+except Exception as e:
+    print("No pyNeuroML: %s"%e)
 
 print('\n========================================================\n')
 
