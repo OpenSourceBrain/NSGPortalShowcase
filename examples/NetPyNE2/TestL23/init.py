@@ -165,7 +165,7 @@ nml2_file_name = 'TestL23.net.nml'
 simConfig = specs.SimConfig()   # object of class SimConfig to store the simulation configuration
 
 # Simulation parameters
-simConfig.duration = simConfig.tstop = 100.0 # Duration of the simulation, in ms
+simConfig.duration = simConfig.tstop = 10.0 # Duration of the simulation, in ms
 simConfig.dt = 0.024999999 # Internal integration timestep to use
 simConfig.randseed = 1 # Random seed to use
 simConfig.createNEURONObj = 1  # create HOC objects when instantiating network

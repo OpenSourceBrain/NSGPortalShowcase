@@ -24,3 +24,5 @@ simulations
 /NSG-R/STDOUT
 /NSG-R/output.tar.gz
 /NSG-R/scheduler_stdout.txt
+/examples/NetPyNE2/TestL23/*.dat
+/NSG-R/*.dat
