@@ -26,3 +26,4 @@ simulations
 /NSG-R/scheduler_stdout.txt
 /examples/NetPyNE2/TestL23/*.dat
 /NSG-R/*.dat
+/examples/NetPyNE/MediumNet/*.dat
