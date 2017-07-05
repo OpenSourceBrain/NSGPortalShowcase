@@ -103,184 +103,184 @@ simConfig.recordTraces = {}
 
 # For saving to file: baskets_12_0.0.dat (ref: baskets_12_v_0_0_OF)
 # Column: v: Pop: baskets_12; cell: 0; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_0_0_OF_baskets_12_0_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':0}}
+simConfig.recordTraces['baskets_12_v_0_0_OF_baskets_12_0_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':0}}
 # For saving to file: baskets_12_1.0.dat (ref: baskets_12_v_1_0_OF)
 # Column: v: Pop: baskets_12; cell: 1; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_1_0_OF_baskets_12_1_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':1}}
+simConfig.recordTraces['baskets_12_v_1_0_OF_baskets_12_1_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':1}}
 # For saving to file: baskets_12_2.0.dat (ref: baskets_12_v_2_0_OF)
 # Column: v: Pop: baskets_12; cell: 2; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_2_0_OF_baskets_12_2_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':2}}
+simConfig.recordTraces['baskets_12_v_2_0_OF_baskets_12_2_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':2}}
 # For saving to file: baskets_12_3.0.dat (ref: baskets_12_v_3_0_OF)
 # Column: v: Pop: baskets_12; cell: 3; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_3_0_OF_baskets_12_3_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':3}}
+simConfig.recordTraces['baskets_12_v_3_0_OF_baskets_12_3_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':3}}
 # For saving to file: baskets_12_4.0.dat (ref: baskets_12_v_4_0_OF)
 # Column: v: Pop: baskets_12; cell: 4; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_4_0_OF_baskets_12_4_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':4}}
+simConfig.recordTraces['baskets_12_v_4_0_OF_baskets_12_4_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':4}}
 # For saving to file: baskets_12_5.0.dat (ref: baskets_12_v_5_0_OF)
 # Column: v: Pop: baskets_12; cell: 5; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_5_0_OF_baskets_12_5_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':5}}
+simConfig.recordTraces['baskets_12_v_5_0_OF_baskets_12_5_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':5}}
 # For saving to file: baskets_12_6.0.dat (ref: baskets_12_v_6_0_OF)
 # Column: v: Pop: baskets_12; cell: 6; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_6_0_OF_baskets_12_6_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':6}}
+simConfig.recordTraces['baskets_12_v_6_0_OF_baskets_12_6_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':6}}
 # For saving to file: baskets_12_7.0.dat (ref: baskets_12_v_7_0_OF)
 # Column: v: Pop: baskets_12; cell: 7; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_7_0_OF_baskets_12_7_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':7}}
+simConfig.recordTraces['baskets_12_v_7_0_OF_baskets_12_7_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':7}}
 # For saving to file: baskets_12_8.0.dat (ref: baskets_12_v_8_0_OF)
 # Column: v: Pop: baskets_12; cell: 8; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_8_0_OF_baskets_12_8_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':8}}
+simConfig.recordTraces['baskets_12_v_8_0_OF_baskets_12_8_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':8}}
 # For saving to file: baskets_12_9.0.dat (ref: baskets_12_v_9_0_OF)
 # Column: v: Pop: baskets_12; cell: 9; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_9_0_OF_baskets_12_9_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':9}}
+simConfig.recordTraces['baskets_12_v_9_0_OF_baskets_12_9_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':9}}
 # For saving to file: baskets_12_10.0.dat (ref: baskets_12_v_10_0_OF)
 # Column: v: Pop: baskets_12; cell: 10; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_10_0_OF_baskets_12_10_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':10}}
+simConfig.recordTraces['baskets_12_v_10_0_OF_baskets_12_10_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':10}}
 # For saving to file: baskets_12_11.0.dat (ref: baskets_12_v_11_0_OF)
 # Column: v: Pop: baskets_12; cell: 11; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['baskets_12_v_11_0_OF_baskets_12_11_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'baskets_12','cellLabel':11}}
+simConfig.recordTraces['baskets_12_v_11_0_OF_baskets_12_11_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'baskets_12','cellLabel':11}}
 # For saving to file: pyramidals_48_0.0.dat (ref: pyramidals_48_v_0_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 0; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_0_0_OF_pyramidals_48_0_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':0}}
+simConfig.recordTraces['pyramidals_48_v_0_0_OF_pyramidals_48_0_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':0}}
 # For saving to file: pyramidals_48_1.0.dat (ref: pyramidals_48_v_1_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 1; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_1_0_OF_pyramidals_48_1_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':1}}
+simConfig.recordTraces['pyramidals_48_v_1_0_OF_pyramidals_48_1_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':1}}
 # For saving to file: pyramidals_48_2.0.dat (ref: pyramidals_48_v_2_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 2; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_2_0_OF_pyramidals_48_2_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':2}}
+simConfig.recordTraces['pyramidals_48_v_2_0_OF_pyramidals_48_2_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':2}}
 # For saving to file: pyramidals_48_3.0.dat (ref: pyramidals_48_v_3_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 3; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_3_0_OF_pyramidals_48_3_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':3}}
+simConfig.recordTraces['pyramidals_48_v_3_0_OF_pyramidals_48_3_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':3}}
 # For saving to file: pyramidals_48_4.0.dat (ref: pyramidals_48_v_4_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 4; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_4_0_OF_pyramidals_48_4_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':4}}
+simConfig.recordTraces['pyramidals_48_v_4_0_OF_pyramidals_48_4_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':4}}
 # For saving to file: pyramidals_48_5.0.dat (ref: pyramidals_48_v_5_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 5; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_5_0_OF_pyramidals_48_5_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':5}}
+simConfig.recordTraces['pyramidals_48_v_5_0_OF_pyramidals_48_5_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':5}}
 # For saving to file: pyramidals_48_6.0.dat (ref: pyramidals_48_v_6_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 6; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_6_0_OF_pyramidals_48_6_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':6}}
+simConfig.recordTraces['pyramidals_48_v_6_0_OF_pyramidals_48_6_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':6}}
 # For saving to file: pyramidals_48_7.0.dat (ref: pyramidals_48_v_7_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 7; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_7_0_OF_pyramidals_48_7_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':7}}
+simConfig.recordTraces['pyramidals_48_v_7_0_OF_pyramidals_48_7_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':7}}
 # For saving to file: pyramidals_48_8.0.dat (ref: pyramidals_48_v_8_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 8; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_8_0_OF_pyramidals_48_8_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':8}}
+simConfig.recordTraces['pyramidals_48_v_8_0_OF_pyramidals_48_8_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':8}}
 # For saving to file: pyramidals_48_9.0.dat (ref: pyramidals_48_v_9_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 9; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_9_0_OF_pyramidals_48_9_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':9}}
+simConfig.recordTraces['pyramidals_48_v_9_0_OF_pyramidals_48_9_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':9}}
 # For saving to file: pyramidals_48_10.0.dat (ref: pyramidals_48_v_10_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 10; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_10_0_OF_pyramidals_48_10_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':10}}
+simConfig.recordTraces['pyramidals_48_v_10_0_OF_pyramidals_48_10_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':10}}
 # For saving to file: pyramidals_48_11.0.dat (ref: pyramidals_48_v_11_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 11; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_11_0_OF_pyramidals_48_11_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':11}}
+simConfig.recordTraces['pyramidals_48_v_11_0_OF_pyramidals_48_11_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':11}}
 # For saving to file: pyramidals_48_12.0.dat (ref: pyramidals_48_v_12_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 12; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_12_0_OF_pyramidals_48_12_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':12}}
+simConfig.recordTraces['pyramidals_48_v_12_0_OF_pyramidals_48_12_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':12}}
 # For saving to file: pyramidals_48_13.0.dat (ref: pyramidals_48_v_13_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 13; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_13_0_OF_pyramidals_48_13_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':13}}
+simConfig.recordTraces['pyramidals_48_v_13_0_OF_pyramidals_48_13_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':13}}
 # For saving to file: pyramidals_48_14.0.dat (ref: pyramidals_48_v_14_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 14; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_14_0_OF_pyramidals_48_14_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':14}}
+simConfig.recordTraces['pyramidals_48_v_14_0_OF_pyramidals_48_14_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':14}}
 # For saving to file: pyramidals_48_15.0.dat (ref: pyramidals_48_v_15_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 15; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_15_0_OF_pyramidals_48_15_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':15}}
+simConfig.recordTraces['pyramidals_48_v_15_0_OF_pyramidals_48_15_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':15}}
 # For saving to file: pyramidals_48_16.0.dat (ref: pyramidals_48_v_16_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 16; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_16_0_OF_pyramidals_48_16_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':16}}
+simConfig.recordTraces['pyramidals_48_v_16_0_OF_pyramidals_48_16_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':16}}
 # For saving to file: pyramidals_48_17.0.dat (ref: pyramidals_48_v_17_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 17; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_17_0_OF_pyramidals_48_17_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':17}}
+simConfig.recordTraces['pyramidals_48_v_17_0_OF_pyramidals_48_17_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':17}}
 # For saving to file: pyramidals_48_18.0.dat (ref: pyramidals_48_v_18_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 18; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_18_0_OF_pyramidals_48_18_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':18}}
+simConfig.recordTraces['pyramidals_48_v_18_0_OF_pyramidals_48_18_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':18}}
 # For saving to file: pyramidals_48_19.0.dat (ref: pyramidals_48_v_19_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 19; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_19_0_OF_pyramidals_48_19_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':19}}
+simConfig.recordTraces['pyramidals_48_v_19_0_OF_pyramidals_48_19_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':19}}
 # For saving to file: pyramidals_48_20.0.dat (ref: pyramidals_48_v_20_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 20; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_20_0_OF_pyramidals_48_20_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':20}}
+simConfig.recordTraces['pyramidals_48_v_20_0_OF_pyramidals_48_20_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':20}}
 # For saving to file: pyramidals_48_21.0.dat (ref: pyramidals_48_v_21_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 21; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_21_0_OF_pyramidals_48_21_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':21}}
+simConfig.recordTraces['pyramidals_48_v_21_0_OF_pyramidals_48_21_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':21}}
 # For saving to file: pyramidals_48_22.0.dat (ref: pyramidals_48_v_22_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 22; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_22_0_OF_pyramidals_48_22_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':22}}
+simConfig.recordTraces['pyramidals_48_v_22_0_OF_pyramidals_48_22_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':22}}
 # For saving to file: pyramidals_48_23.0.dat (ref: pyramidals_48_v_23_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 23; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_23_0_OF_pyramidals_48_23_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':23}}
+simConfig.recordTraces['pyramidals_48_v_23_0_OF_pyramidals_48_23_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':23}}
 # For saving to file: pyramidals_48_24.0.dat (ref: pyramidals_48_v_24_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 24; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_24_0_OF_pyramidals_48_24_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':24}}
+simConfig.recordTraces['pyramidals_48_v_24_0_OF_pyramidals_48_24_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':24}}
 # For saving to file: pyramidals_48_25.0.dat (ref: pyramidals_48_v_25_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 25; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_25_0_OF_pyramidals_48_25_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':25}}
+simConfig.recordTraces['pyramidals_48_v_25_0_OF_pyramidals_48_25_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':25}}
 # For saving to file: pyramidals_48_26.0.dat (ref: pyramidals_48_v_26_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 26; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_26_0_OF_pyramidals_48_26_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':26}}
+simConfig.recordTraces['pyramidals_48_v_26_0_OF_pyramidals_48_26_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':26}}
 # For saving to file: pyramidals_48_27.0.dat (ref: pyramidals_48_v_27_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 27; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_27_0_OF_pyramidals_48_27_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':27}}
+simConfig.recordTraces['pyramidals_48_v_27_0_OF_pyramidals_48_27_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':27}}
 # For saving to file: pyramidals_48_28.0.dat (ref: pyramidals_48_v_28_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 28; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_28_0_OF_pyramidals_48_28_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':28}}
+simConfig.recordTraces['pyramidals_48_v_28_0_OF_pyramidals_48_28_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':28}}
 # For saving to file: pyramidals_48_29.0.dat (ref: pyramidals_48_v_29_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 29; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_29_0_OF_pyramidals_48_29_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':29}}
+simConfig.recordTraces['pyramidals_48_v_29_0_OF_pyramidals_48_29_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':29}}
 # For saving to file: pyramidals_48_30.0.dat (ref: pyramidals_48_v_30_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 30; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_30_0_OF_pyramidals_48_30_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':30}}
+simConfig.recordTraces['pyramidals_48_v_30_0_OF_pyramidals_48_30_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':30}}
 # For saving to file: pyramidals_48_31.0.dat (ref: pyramidals_48_v_31_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 31; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_31_0_OF_pyramidals_48_31_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':31}}
+simConfig.recordTraces['pyramidals_48_v_31_0_OF_pyramidals_48_31_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':31}}
 # For saving to file: pyramidals_48_32.0.dat (ref: pyramidals_48_v_32_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 32; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_32_0_OF_pyramidals_48_32_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':32}}
+simConfig.recordTraces['pyramidals_48_v_32_0_OF_pyramidals_48_32_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':32}}
 # For saving to file: pyramidals_48_33.0.dat (ref: pyramidals_48_v_33_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 33; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_33_0_OF_pyramidals_48_33_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':33}}
+simConfig.recordTraces['pyramidals_48_v_33_0_OF_pyramidals_48_33_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':33}}
 # For saving to file: pyramidals_48_34.0.dat (ref: pyramidals_48_v_34_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 34; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_34_0_OF_pyramidals_48_34_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':34}}
+simConfig.recordTraces['pyramidals_48_v_34_0_OF_pyramidals_48_34_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':34}}
 # For saving to file: pyramidals_48_35.0.dat (ref: pyramidals_48_v_35_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 35; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_35_0_OF_pyramidals_48_35_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':35}}
+simConfig.recordTraces['pyramidals_48_v_35_0_OF_pyramidals_48_35_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':35}}
 # For saving to file: pyramidals_48_36.0.dat (ref: pyramidals_48_v_36_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 36; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_36_0_OF_pyramidals_48_36_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':36}}
+simConfig.recordTraces['pyramidals_48_v_36_0_OF_pyramidals_48_36_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':36}}
 # For saving to file: pyramidals_48_37.0.dat (ref: pyramidals_48_v_37_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 37; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_37_0_OF_pyramidals_48_37_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':37}}
+simConfig.recordTraces['pyramidals_48_v_37_0_OF_pyramidals_48_37_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':37}}
 # For saving to file: pyramidals_48_38.0.dat (ref: pyramidals_48_v_38_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 38; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_38_0_OF_pyramidals_48_38_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':38}}
+simConfig.recordTraces['pyramidals_48_v_38_0_OF_pyramidals_48_38_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':38}}
 # For saving to file: pyramidals_48_39.0.dat (ref: pyramidals_48_v_39_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 39; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_39_0_OF_pyramidals_48_39_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':39}}
+simConfig.recordTraces['pyramidals_48_v_39_0_OF_pyramidals_48_39_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':39}}
 # For saving to file: pyramidals_48_40.0.dat (ref: pyramidals_48_v_40_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 40; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_40_0_OF_pyramidals_48_40_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':40}}
+simConfig.recordTraces['pyramidals_48_v_40_0_OF_pyramidals_48_40_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':40}}
 # For saving to file: pyramidals_48_41.0.dat (ref: pyramidals_48_v_41_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 41; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_41_0_OF_pyramidals_48_41_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':41}}
+simConfig.recordTraces['pyramidals_48_v_41_0_OF_pyramidals_48_41_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':41}}
 # For saving to file: pyramidals_48_42.0.dat (ref: pyramidals_48_v_42_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 42; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_42_0_OF_pyramidals_48_42_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':42}}
+simConfig.recordTraces['pyramidals_48_v_42_0_OF_pyramidals_48_42_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':42}}
 # For saving to file: pyramidals_48_43.0.dat (ref: pyramidals_48_v_43_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 43; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_43_0_OF_pyramidals_48_43_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':43}}
+simConfig.recordTraces['pyramidals_48_v_43_0_OF_pyramidals_48_43_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':43}}
 # For saving to file: pyramidals_48_44.0.dat (ref: pyramidals_48_v_44_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 44; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_44_0_OF_pyramidals_48_44_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':44}}
+simConfig.recordTraces['pyramidals_48_v_44_0_OF_pyramidals_48_44_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':44}}
 # For saving to file: pyramidals_48_45.0.dat (ref: pyramidals_48_v_45_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 45; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_45_0_OF_pyramidals_48_45_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':45}}
+simConfig.recordTraces['pyramidals_48_v_45_0_OF_pyramidals_48_45_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':45}}
 # For saving to file: pyramidals_48_46.0.dat (ref: pyramidals_48_v_46_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 46; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_46_0_OF_pyramidals_48_46_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':46}}
+simConfig.recordTraces['pyramidals_48_v_46_0_OF_pyramidals_48_46_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':46}}
 # For saving to file: pyramidals_48_47.0.dat (ref: pyramidals_48_v_47_0_OF)
 # Column: v: Pop: pyramidals_48; cell: 47; segment id: 0; segment name: soma; value: v (v)
-simConfig.recordTraces['pyramidals_48_v_47_0_OF_pyramidals_48_47_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'popLabel':'pyramidals_48','cellLabel':47}}
+simConfig.recordTraces['pyramidals_48_v_47_0_OF_pyramidals_48_47_soma_v'] = {'sec':'soma','loc':0.5,'var':'v','conds':{'pop':'pyramidals_48','cellLabel':47}}
 
 
 simConfig.plotCells = ['all']

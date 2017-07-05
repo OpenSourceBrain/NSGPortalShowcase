@@ -12,4 +12,4 @@ curl -i --user $USERNAME:$PASSWORD \
      -F metadata.clientJobId=NetPyNE2_test \
      -F metadata.statusEmail=true \
      -F vparam.number_cores_=8 \
-     -F vparam.number_nodes_=1
+     -F vparam.number_nodes_=2
