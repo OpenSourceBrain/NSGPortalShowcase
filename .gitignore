@@ -44,3 +44,4 @@ simulations
 /examples/NetPyNE2/TestL23/LEMS_TestL23_netpyne.py_main.json
 /examples/NetPyNE2/TestL23/TestL23.py
 /examples/tune/Tuner/NT_*
+/NSG-R/clean.sh
