@@ -7,7 +7,7 @@ echo "Accessing: $URL/job/$USERNAME for user $USERNAME"
 curl -i --user $USERNAME:$PASSWORD \
      -H cipres-appkey:$DIRECT_APPID \
       $URL/job/$USERNAME \
-     -F tool='NEURON74_TG' \
+     -F tool='NEURON77_TG' \
      -F input.infile_=@../examples/NEURON/input.zip \
      -F metadata.clientJobId=NRN_PG \
      -F metadata.statusEmail=true \

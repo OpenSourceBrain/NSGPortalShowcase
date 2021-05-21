@@ -7,7 +7,7 @@ echo "Accessing: $URL/job/$USERNAME for user $USERNAME"
 curl -i --user $USERNAME:$PASSWORD \
      -H cipres-appkey:$DIRECT_APPID \
       $URL/job/$USERNAME \
-     -F tool='PY_TG' \
+     -F tool='BRIAN_TG' \
      -F input.infile_=@../examples/Python/input.zip \
-     -F metadata.clientJobId=1234546 \
+     -F metadata.clientJobId=TestInstalledPython \
      -F metadata.statusEmail=true

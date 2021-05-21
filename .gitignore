@@ -45,3 +45,6 @@ simulations
 /examples/NetPyNE2/TestL23/TestL23.py
 /examples/tune/Tuner/NT_*
 /NSG-R/clean.sh
+/NSG-R/output
+/NSG-R/status_job_admin_osb.sh
+/NSG-R/status_job_admin_osb_nossl.sh

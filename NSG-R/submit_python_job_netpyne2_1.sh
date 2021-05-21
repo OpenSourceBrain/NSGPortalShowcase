@@ -7,7 +7,7 @@ echo "Accessing: $URL/job/$USERNAME for user $USERNAME"
 curl -i --user $USERNAME:$PASSWORD \
      -H cipres-appkey:$DIRECT_APPID \
       $URL/job/$USERNAME \
-     -F tool='OSBPYNEURON74' \
+     -F tool='OSBPYNEURON77' \
      -F input.infile_=@../examples/NetPyNE2/input.zip \
      -F metadata.clientJobId=NetPyNE2_test \
      -F metadata.statusEmail=true \

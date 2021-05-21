@@ -1,12 +1,12 @@
-### NSG REST API 
+### NSG REST API
 
 **This is a work in progress!!** This feature may change or be removed without notice!
 
-This work is based on the REST API from  [CIPRES - Cyberinfrastructure for Phylogenetic Research](http://www.phylo.org/index.php/news/detail/announcing-cipres-restful-services-a-new-way-to-use-cipres).
+This work is based on the REST API from [CIPRES - Cyberinfrastructure for Phylogenetic Research](http://www.phylo.org/index.php/news/detail/announcing-cipres-restful-services-a-new-way-to-use-cipres).
 
 #### Sign up to the NSG REST test server
 
-1. Go to https://nsgr.sdsc.edu:8444/restusers and register for a new account
+1. Go to https://nsgr.sdsc.edu:8443/restusers and register for a new account
 2. Log in to the service
 3. Go to Developer -> Application Management
 4. Click Create New Application
@@ -28,7 +28,7 @@ This work is based on the REST API from  [CIPRES - Cyberinfrastructure for Phylo
     PASSWORD=xxxxxx
     DIRECT_APPID=Direct111111111111
     ```
-    
+
 11. DIRECT_APPID should be set to your Application ID
 
 
@@ -38,18 +38,15 @@ This work is based on the REST API from  [CIPRES - Cyberinfrastructure for Phylo
 1. Test listing/submitting of jobs with:
 
     ```
-    ./list_jobs.sh              # none yet...
-    ./submit_python_job.sh      # submit a simple Python job
-    ./list_jobs.sh              # should be listed
-    ./status_job.sh JOBIDXXXX   # Replace job ID with that listed above
+    ./list_jobs.sh                    # There will not be any yet...
+    ./submit_python_job.sh            # Submit a simple Python job
+    ./list_jobs.sh                    # The job should be listed
+    ./status_job.sh NGBW-JOBIDXXXX    # See the status (submitted, completed etc.) Replace job ID with that listed above
+    ./list_results.sh NGBW-JOBIDXXXX  # When completed, list all the generated files
+    ./download_results.sh https://nsgr.sdsc.edu:8443/cipresrest/v1/job/XXX/NGBW-JOB-XXX/XXX/XXX # Download one of the listed files
     ```
-    
+
 
 #### Access using Java API
-    
+
 See [here](https://github.com/OpenSourceBrain/NSGPortalShowcase/tree/master/NSG-R/Java).
-
-
-
-
-
