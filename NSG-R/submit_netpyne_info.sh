@@ -9,7 +9,7 @@ curl -i --user $USERNAME:$PASSWORD \
       $URL/job/$USERNAME \
      -F tool='OSBPYNEURON77' \
      -F input.infile_=@../examples/Python/input.zip \
-     -F metadata.clientJobId=77777 \
+     -F metadata.clientJobId=NetPyNEInfo \
      -F metadata.statusEmail=true \
      -F vparam.number_cores_=1 \
      -F vparam.number_nodes_=1
