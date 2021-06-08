@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./read_env_variables_admin
+source ./read_env_variables_admin_osb
 
 url=$URL/job/$UMBRELLA_APPNAME.$USER_USERNAME
 

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-source ./read_env_variables_admin
+source ./read_env_variables_admin_osb
 
 url=$URL/job/$UMBRELLA_APPNAME.$USER_USERNAME/$1
 
-echo "Accessing: $URL/job/$USERNAME for user $USERNAME"
+echo "Accessing: $url for user $ADMIN_USERNAME on behalf of $USER_USERNAME"
 
 curl -i -u $ADMIN_USERNAME:$ADMIN_PASSWORD \
      -H cipres-appkey:$UMBRELLA_APPID \
