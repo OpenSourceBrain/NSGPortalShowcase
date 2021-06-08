@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./read_env_variables_admin
+source ./read_env_variables_admin_osb
 
 url=$URL/job/$UMBRELLA_APPNAME.$USER_USERNAME
 
@@ -13,7 +13,10 @@ curl -i --user $ADMIN_USERNAME:$ADMIN_PASSWORD \
      -H cipres-eu-institution:$USER_INSTITUTION \
      -H cipres-eu-country:$USER_COUNTRY \
       $url \
-     -F tool='PY_TG' \
+     -F tool='PY_EXPANSE' \
      -F input.infile_=@../examples/Python/input.zip \
-     -F metadata.clientJobId=1234546 \
-     -F metadata.statusEmail=true
+     -F metadata.clientJobId=PythonInfoAdmin \
+     -F metadata.statusEmail=true \
+     -F vparam.number_cores_=1 \
+     -F vparam.number_nodes_=1 \
+     -F vparam.tasks_per_node_=1
