@@ -9,7 +9,7 @@ curl -i --user $USERNAME:$PASSWORD \
       $URL/job/$USERNAME \
      -F tool='NEURON_EXPANSE' \
      -F input.infile_=@../examples/NetPyNE/input.zip \
-     -F vparam.filename_=input.py \
+     -F vparam.filename_=init.py \
      -F metadata.clientJobId=NetPyNE_test \
      -F metadata.statusEmail=true \
      -F vparam.number_cores_=8 \

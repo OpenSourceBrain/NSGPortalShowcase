@@ -19,29 +19,6 @@ except:
     print("No NEURON...")
 
 
-print('\n========================================================\n')
-try:
-    import nest
-    print(">> NEST: version %s"%nest.version())
-except:
-    print("No PyNEST...")
-
-
-print('\n========================================================\n')
-try:
-    import brian
-    print(">> Brian: version %s"%brian.__version__)
-except:
-    print("No Brian v1...")
-
-
-print('\n========================================================\n')
-try:
-    import brian2
-    print(">> Brian2: version %s"%brian2.__version__)
-except:
-    print("No Brian v2...")
-
 
 print('\n========================================================\n')
 try:
@@ -68,5 +45,5 @@ except Exception as e:
 
 print('\n========================================================\n')
 
-
-import init  
+print('Init for main script...')
+import init

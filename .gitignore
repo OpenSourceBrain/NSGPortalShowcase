@@ -50,3 +50,4 @@ simulations
 /NSG-R/status_job_admin_osb_nossl.sh
 /NSG-R/old
 /examples/NetPyNE/MediumNet/simulator.props
+/NSG-R/output.works.tar.gz
