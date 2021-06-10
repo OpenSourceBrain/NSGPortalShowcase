@@ -12,13 +12,12 @@ curl -i -u $ADMIN_USERNAME:$ADMIN_PASSWORD \
      -H cipres-eu-email:$USER_EMAIL \
      -H cipres-eu-institution:$USER_INSTITUTION \
      -H cipres-eu-country:$USER_COUNTRY \
-     -F tool='PY_EXPANSE' \
+     -F tool='NEURON_EXPANSE' \
      -F input.infile_=@../examples/NetPyNE/input.zip \
+     -F vparam.filename_=init.py \
      -F metadata.clientJobId=NetPyNETestAdmin \
      -F metadata.statusEmail=true \
      -F vparam.number_cores_=1 \
      -F vparam.number_nodes_=1 \
      -F vparam.tasks_per_node_=1  \
       $url
-     
-    
