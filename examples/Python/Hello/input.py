@@ -1,6 +1,6 @@
 import sys
 
-print("Hello from Python: %s"% sys.version)
+print("Hello from Python version: %s"% sys.version)
 
 
 print('\n========================================================\n')
