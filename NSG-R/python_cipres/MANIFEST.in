@@ -1,0 +1,7 @@
+include *.txt
+include python_cipres/examples/Readme.txt
+include python_cipres/examples/beast2_xsede/*
+include python_cipres/examples/garli2_tgb/*
+include python_cipres/examples/raxmlhpc8_ancestral_states/*
+include python_cipres/examples/raxmlhpc8_ml_rapdibootstrap/*
+include python_cipres/examples/clustalw/*

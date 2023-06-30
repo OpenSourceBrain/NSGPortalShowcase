@@ -53,3 +53,5 @@ simulations
 /NSG-R/output.works.tar.gz
 /examples/NetPyNE/MediumNet/report.medium.txt
 .DS_Store
+/NSG-R/python_cipres/build/
+/NSG-R/python_cipres/python_cipres.egg-info
