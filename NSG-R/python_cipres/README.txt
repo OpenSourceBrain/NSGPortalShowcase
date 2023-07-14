@@ -1,3 +1,9 @@
+********************************************************************************************
+Note a version of this package, updated for NSGR and Open Source Brain is available at: 
+https://github.com/OpenSourceBrain/pynsgr
+********************************************************************************************
+
+
 ==================
 python_cipres
 ==================
